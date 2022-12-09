@@ -8,14 +8,7 @@ html {
 	box-sizing: inherit;
 }
 
-a {
-	color: inherit;
-	text-decoration: none;
-}
-.a:not(:last-child)
-{
-    margin-right: 25px;
-}
+
 img {
 	max-width: 100%;
 }
@@ -41,16 +34,20 @@ body {
 
 .link-modules{
     display: inline-block;
-
     margin-bottom: 50px;  
-    padding: 25px 49px;
+    padding: 24px 49px;
 }
 .link-indents{
     display: inline-block;
     margin-bottom: 50px;  
-    padding: 25px 49px;
+    padding: 24px 49px;
 }
-div {
- display: inline-block;
- padding:25px;
+a {
+	color: inherit;
+	text-decoration: none;
 }
+.a:not(:last-child)
+{
+    margin-right: 25px;
+}
+
