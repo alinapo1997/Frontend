@@ -1,20 +1,24 @@
 html {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+    box-sizing: inherit;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
 img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 body {
-	font-family: 'font', sans-serif;
+    font-family: 'font', sans-serif;
 }
 
 .main-content {
@@ -27,27 +31,35 @@ body {
     background-color: #070217;
 }
 
-.skillbox-logo{
-    display: block;
+.logo-skillbox {
+    margin-bottom: 50px;
+}
+/* .link-modules
+{
     margin-bottom: 50px;
 }
 
-.link-modules{
-    display: inline-block;
-    margin-bottom: 50px;  
+.link-indents {
+    margin-bottom: 50px;
     padding: 24px 49px;
-}
-.link-indents{
-    display: inline-block;
-    margin-bottom: 50px;  
-    padding: 24px 49px;
-}
-a {
-	color: inherit;
-	text-decoration: none;
-}
-.a:not(:last-child)
-{
-    margin-right: 25px;
-}
 
+} */
+/* .inline-block {
+    
+} */
+
+.links{
+    margin-bottom: 50px;
+    padding: 24px 49px;
+    
+    display: inline-block;
+}
+.links:not(:last-child){
+    margin-bottom: 0px; 
+    margin-right: 25px;     
+   
+    display: inline-block;
+}
+img {
+    width: 100%;
+  }
